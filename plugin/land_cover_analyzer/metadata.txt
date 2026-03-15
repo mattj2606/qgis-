@@ -1,0 +1,15 @@
+[general]
+name=Land Cover Analyzer
+qgisMinimumVersion=3.28
+description=Classify multispectral imagery into land cover categories and export for ML
+version=1.0.0
+author=Geospatial Analysis Portfolio
+email=contact@example.com
+about=A QGIS plugin for automated land cover classification using unsupervised methods (K-Means, ISO Cluster). Computes spectral indices (NDVI, NDWI, NDBI), generates accuracy assessments, and exports classified maps with metadata suitable for AI/ML training pipelines.
+tracker=https://github.com/example/qgis-land-cover-analyzer/issues
+repository=https://github.com/example/qgis-land-cover-analyzer
+tags=classification,remote sensing,land cover,machine learning,NDVI
+category=Raster
+icon=icon.png
+experimental=False
+deprecated=False
